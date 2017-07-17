@@ -1,0 +1,33 @@
+{
+  "name": "chatsocket",
+  "version": "1.0.0",
+  "description": "Chat con Socket IO & Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLoarca/chat-socketio.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "chat",
+    "realtime"
+  ],
+  "author": "José Loarca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLoarca/chat-socketio/issues"
+  },
+  "homepage": "https://github.com/JoseLoarca/chat-socketio#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
